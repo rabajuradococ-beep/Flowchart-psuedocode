@@ -1,0 +1,36 @@
+Start
+
+
+
+2. Display Menu
+
+
+
+3. Take Customer Order
+
+
+
+4. Decision: Pay?
+
+
+If No → Loop back to “Display Menu”
+
+
+If Yes → Continue
+
+
+
+
+5. Cash or Card (payment method)
+
+
+
+6. Wait for 20 minutes
+
+
+
+7. Order Complete
+
+
+
+8. End of Order
