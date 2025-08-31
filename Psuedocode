@@ -1,0 +1,29 @@
+BEGIN
+
+    DISPLAY menu
+
+    TAKE customer order
+
+
+    ASK "Pay?"
+
+
+    IF payment is NOT made THEN
+
+        GO BACK to DISPLAY menu
+
+    ELSE
+
+        ASK for payment method: "Cash or Card"
+
+        PROCESS payment
+
+        WAIT for 20 minutes
+
+        MARK order as complete
+
+        DISPLAY "End of Order"
+
+    ENDIF
+
+END
